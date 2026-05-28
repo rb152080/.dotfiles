@@ -1,0 +1,11 @@
+[env]
+WINIT_X11_SCALE_FACTOR = "1.0"
+
+[window]
+dynamic_padding = true
+
+[font]
+size = 16.0
+
+[font.normal]
+family = "FiraCode Nerd Font"
