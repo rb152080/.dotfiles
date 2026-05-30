@@ -1,6 +1,5 @@
 vim.opt.guicursor = ""
 vim.opt.nu = true
-vim.opt.relativenumber = true
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
@@ -19,8 +18,8 @@ vim.opt.colorcolumn = "80"
 vim.g.mapleader = " "
 vim.opt.clipboard = "unnamedplus"
 vim.keymap.set("n", "J", "mzJ`z")
-vim.keymap.set("n", "C-d>", "<C-d>zz")
-vim.keymap.set("n", "C-u>", "<C-u>zz")
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 vim.keymap.set("i", "<C-c>", "<Esc>")

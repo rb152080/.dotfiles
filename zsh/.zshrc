@@ -1,6 +1,7 @@
 if [[ -z "$DISPLAY" ]]; then
 	IS_TTY=1
 	PROMPT='%~ %# '
+    printf '\e[8c'
 	if [[ -z "$TMUX" ]]; then
 		setfont ter-132n
 	fi
