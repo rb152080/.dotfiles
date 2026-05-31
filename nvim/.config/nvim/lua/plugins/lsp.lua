@@ -10,7 +10,7 @@ return {
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
 			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "bashls" },
+				ensure_installed = { "lua_ls", "bashls", "clangd", "markdown_oxide" },
 			})
 		end,
 	},
@@ -23,6 +23,10 @@ return {
 			vim.lsp.enable("lua_ls")
 			vim.lsp.config("bashls", { capabilities = capabilities })
 			vim.lsp.enable("bashls")
+			vim.lsp.config("clangd", { capabilities = capabilities })
+			vim.lsp.enable("clangd")
+			vim.lsp.config("markdown_oxide", { capabilities = capabilities })
+			vim.lsp.enable("markdown_oxide")
 			vim.keymap.set("n", "<leader>h", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "<leader>d", vim.lsp.buf.definition, {})
 			vim.keymap.set("n", "<leader>a", vim.lsp.buf.code_action, {})
