@@ -48,6 +48,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
 bindsym $mod+m exec --no-startup-id ~/.local/bin/displays.sh
+bindsym $mod+Shift+e exec --no-startup-id ~/.local/bin/power.sh
 
 bindsym $mod+Shift+s exec --no-startup-id maim --format=png "/home/$USER/screenshots/screenshot_$(date +'%m-%d-%Y_%H-%M-%S').png" --select | xclip -selection clipboard -t image/png
 
@@ -169,7 +170,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 # bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
-bindsym $mod+Shift+e exec i3-msg exit
+# bindsym $mod+Shift+e exec i3-msg exit
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
