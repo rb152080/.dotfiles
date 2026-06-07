@@ -3,4 +3,14 @@
 
 configuration {
 	font: "FiraCode Nerd Font 14";
+    show-icons: true;
+}
+
+window {
+    width: 600px;
+    height: 330px;
+}
+
+element-icon {
+    size: 24px;
 }

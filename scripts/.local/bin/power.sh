@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 chosen=$(printf "logout\nlock\nsleep" | rofi -dmenu)
 
