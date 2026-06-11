@@ -1,8 +1,8 @@
 #!/bin/bash
 
-chosen=$(printf "logout\nlock\nsleep" | rofi -dmenu)
+CHOSEN=$(printf "logout\nlock\nsleep" | rofi -dmenu)
 
-case "$chosen" in
+case "$CHOSEN" in
 "logout")
 	i3-msg exit
 	;;

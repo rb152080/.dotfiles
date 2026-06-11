@@ -5,9 +5,9 @@ EXTERNAL="HDMI-1-0"
 MODE="1920x1080"
 RATE=60
 
-chosen=$(printf "secondary\nright\nleft\nprimary\nmirror" | rofi -dmenu)
+CHOSEN=$(printf "secondary\nright\nleft\nprimary\nmirror" | rofi -dmenu)
 
-case "$chosen" in
+case "$CHOSEN" in
 "secondary")
 	xrandr --output $EXTERNAL --primary --mode $MODE --rate $RATE --output $INTERNAL --off
 	;;

@@ -29,8 +29,6 @@ return {
 			vim.lsp.enable("markdown_oxide")
 			vim.lsp.config("basedpyright", { capabilities = capabilities })
 			vim.lsp.enable("basedpyright")
-			vim.lsp.config("rust_analyzer", { capabilities = capabilities })
-			vim.lsp.enable("rust_analyzer")
 			vim.keymap.set("n", "K", function()
 				vim.lsp.buf.hover({ border = "rounded" })
 			end, {})

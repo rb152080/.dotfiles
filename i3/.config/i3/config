@@ -51,7 +51,7 @@ bindsym $mod+m exec --no-startup-id ~/.local/bin/displays.sh
 bindsym $mod+Shift+e exec --no-startup-id ~/.local/bin/power.sh
 bindsym $mod+i exec --no-startup-id ~/.local/bin/image_viewer.sh
 
-bindsym $mod+Shift+s exec --no-startup-id maim --format=png "/home/$USER/screenshots/screenshot_$(date +'%m-%d-%Y_%H-%M-%S').png" --select | xclip -selection clipboard -t image/png
+bindsym $mod+Shift+s exec --no-startup-id maim --format=png --select | tee "/home/$USER/screenshots/screenshot_$(date +%m-%d-%Y_%H-%M-%S).png" | xclip -selection clipboard -t image/png
 
 exec --no-startup-id greenclip daemon>/dev/null
 bindsym $mod+v exec --no-startup-id rofi -modi "clipboard:greenclip print" -show clipboard

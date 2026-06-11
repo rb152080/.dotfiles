@@ -1,0 +1,42 @@
+set notification-error-bg       "#1c1c1c"
+set notification-error-fg       "#ff5f87"
+set notification-warning-bg     "#1c1c1c"
+set notification-warning-fg     "#ffaf87"
+set notification-bg             "#1c1c1c"
+set notification-fg             "#87afaf"
+
+set completion-bg               "#303030"
+set completion-fg               "#d7d7ff"
+set completion-group-bg         "#262626"
+set completion-group-fg         "#5f5f87"
+set completion-highlight-bg     "#afd7d7"
+set completion-highlight-fg     "#303030"
+
+set index-bg                    "#303030"
+set index-fg                    "#d7d7ff"
+set index-active-bg             "#afd7d7"
+set index-active-fg             "#303030"
+
+set inputbar-bg                 "#1c1c1c"
+set inputbar-fg                 "#d7d7ff"
+
+set statusbar-bg                "#303030"
+set statusbar-fg                "#d7d7ff"
+
+set highlight-color             "rgba(0x44, 0x44, 0x44, 0.5)"
+set highlight-active-color      "rgba(0x44, 0x44, 0x44, 0.5)"
+
+set default-bg                  "#181818"
+set default-fg                  "#d7d7ff"
+set render-loading              true
+set render-loading-bg           "#1c1c1c"
+set render-loading-fg           "#d7d7ff"
+
+set recolor-lightcolor          "#1c1c1c"
+set recolor-darkcolor           
+set recolor                     "true"
+set recolor-keephue             "false"
+
+set font "FiraCode Nerd Font 10"
+set adjust-open width
+set smooth_scroll true
