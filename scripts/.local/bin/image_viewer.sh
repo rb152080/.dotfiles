@@ -2,7 +2,7 @@
 
 DIR="$HOME/screenshots"
 
-CHOSEN=$(for i in "$DIR"/*; do
+CHOSEN=$(for i in $(ls -t "$DIR"/*); do
 	[ -e "$i" ] || continue
 	FILENAME=$(basename "$i")
 	echo -en "$FILENAME\0icon\x1f$i\n"

@@ -24,7 +24,7 @@ set statusbar-bg                "#303030"
 set statusbar-fg                "#d7d7ff"
 
 set highlight-color             "rgba(0x44, 0x44, 0x44, 0.5)"
-set highlight-active-color      "rgba(0x44, 0x44, 0x44, 0.5)"
+set highlight-active-color      "rgba(0x58, 0x58, 0x58, 0.5)"
 
 set default-bg                  "#181818"
 set default-fg                  "#d7d7ff"
@@ -33,9 +33,9 @@ set render-loading-bg           "#1c1c1c"
 set render-loading-fg           "#d7d7ff"
 
 set recolor-lightcolor          "#1c1c1c"
-set recolor-darkcolor           
+set recolor-darkcolor           "#d7d7ff"
 set recolor                     "true"
-set recolor-keephue             "false"
+set recolor-keephue             "true"
 
 set font "FiraCode Nerd Font 10"
 set adjust-open width
