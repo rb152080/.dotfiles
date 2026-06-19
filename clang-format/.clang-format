@@ -1,0 +1,6 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+BreakBeforeBraces: Allman
+Cpp11BracedListStyle: false
+SpaceBeforeCpp11BracedList: true
+PointerAlignment: Left
