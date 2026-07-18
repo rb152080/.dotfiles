@@ -4,7 +4,6 @@ if [[ -z "$DISPLAY" ]]; then
     if [[ -z "$TMUX" ]]; then
 		setfont ter-132n
 	fi
-    alias tmux="tmux -f ~/.config/tmux/tmux_tty.conf"
 else
     IS_TTY=0
     # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
