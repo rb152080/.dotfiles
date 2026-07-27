@@ -30,7 +30,7 @@ return {
 			vim.lsp.config("basedpyright", { capabilities = capabilities })
 			vim.lsp.enable("basedpyright")
 			vim.lsp.config("ts_ls", { capabilities = capabilities })
-			vim.lsp.config("ts_ls", { capabilities = capabilities })
+			vim.lsp.enable("ts_ls")
 			vim.keymap.set("n", "K", function()
 				vim.lsp.buf.hover({ border = "rounded" })
 			end, {})

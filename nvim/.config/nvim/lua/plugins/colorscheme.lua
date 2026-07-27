@@ -1,10 +1,10 @@
 return {
-	"rb152080/flamingo.nvim",
+	"project-flamingo-007/flamingo.nvim",
 	name = "flamingo.nvim",
 	config = function()
 		if os.getenv("DISPLAY") == nil then
 			vim.cmd("colorscheme default")
-            vim.opt.termguicolors = false
+			vim.opt.termguicolors = false
 		else
 			require("flamingo").setup({
 				styles = {
