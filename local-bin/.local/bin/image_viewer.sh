@@ -1,4 +1,5 @@
 #!/bin/bash
+# image_viewer.sh
 
 DIR="$HOME/screenshots"
 

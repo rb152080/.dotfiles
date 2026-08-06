@@ -1,4 +1,5 @@
 #!/bin/bash
+# displays.sh
 
 INTERNAL="eDP-1"
 EXTERNAL="HDMI-1-0"

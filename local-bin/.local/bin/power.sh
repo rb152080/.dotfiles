@@ -1,4 +1,5 @@
 #!/bin/bash
+# power.sh
 
 CHOSEN=$(printf "logout\nlock\nsleep" | rofi -dmenu)
 
