@@ -1,3 +1,6 @@
 **/a.out
+**/*.o
 **/build/
 **/node_modules/
+**/code.txt
+**/code.txt.bak
