@@ -1,5 +1,5 @@
 return {
-	"project-flamingo-007/flamingo.nvim",
+	"rb152080/flamingo.nvim",
 	name = "flamingo.nvim",
 	config = function()
 		if os.getenv("DISPLAY") == nil then
