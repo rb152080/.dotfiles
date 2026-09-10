@@ -4,7 +4,7 @@
 INTERNAL="eDP-1"
 EXTERNAL="HDMI-1-0"
 MODE="1920x1080"
-RATE=60
+RATE=75
 
 CHOSEN=$(printf "secondary\nright\nleft\nprimary\nmirror" | rofi -dmenu)
 
