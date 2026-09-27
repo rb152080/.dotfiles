@@ -54,7 +54,7 @@ tztime local {
 }
 
 volume master {
-        format = "VOL %volume"
+        format = "%volume"
         format_muted = "muted"
         device = "default"
         mixer = "Master"
