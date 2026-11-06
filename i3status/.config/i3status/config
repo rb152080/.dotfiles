@@ -24,18 +24,15 @@ order += "tztime local"
 wireless _first_ {
         format_up = "W:%quality"
         format_down = "W: down"
-        separator_block_width = 30
 }
 
 ethernet _first_ {
         format_up = "E: %ip (%speed)"
         format_down = "E: down"
-        separator_block_width = 30
 }
 
 battery all {
         format = "%status %percentage %remaining"
-        separator_block_width = 30
 }
 
 disk "/" {
@@ -62,5 +59,4 @@ volume master {
         device = "default"
         mixer = "Master"
         mixer_idx = 0
-        separator_block_width = 30
 }
