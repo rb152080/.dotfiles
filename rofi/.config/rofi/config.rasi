@@ -4,14 +4,14 @@
 configuration {
 	font: "FiraCode Nerd Font 14";
     show-icons: true;
-    dpi: 1;
+    dpi: 0;
 }
 
 window {
-    width: 900px;
-    height: 500px;
+    width: 30%;
+    height: 40%;
 }
 
 element-icon {
-    size: 24px;
+    size: 1em;
 }
